@@ -1,0 +1,38 @@
+@charset "utf-8";
+article, aside, details, dl, figcaption, figure, footer, header, main, nav, section {
+	display: block;}
+/*navigation style*/
+
+nav{
+   overflow: hidden;
+   border-bottom: 100%;
+}
+
+
+nav li{
+    float: right;
+    text-decoration: none;
+    display: block;
+    padding-left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}   
+
+nav a:link{
+    text-decoration: none;
+}
+
+nav a{
+    color: white;
+    font-size: 30px;
+   
+}
+
+/*body style*/
+body{
+    height: 100%;
+    background-image:url("japan.png") ;
+    background-size: cover;    
+
+}
+

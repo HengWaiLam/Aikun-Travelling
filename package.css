@@ -1,0 +1,101 @@
+@charset "utf-8";
+article, aside, details, dl, figcaption, figure, footer, header, main, nav, section {
+	display: block;}
+/*navigation style*/
+
+nav{
+   overflow: hidden;
+   border-bottom: 100%;
+}
+
+
+nav li{
+    float: right;
+    text-decoration: none;
+    display: block;
+    padding-left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+   
+}   
+
+nav a:link{
+    text-decoration: none;
+    text-shadow: grey 50px;
+}
+
+nav a{
+    color: white;
+    font-size: 30px;
+   
+}
+
+
+/*header*/
+
+/*image*/
+
+article{
+    position: relative;bottom: 150px;
+    font-family: 'Courier New', Courier, monospace;
+}
+div#tokyo tr{
+    border:5px ridge black ; 
+    font-size: 15px;
+    font-style: bold;
+    color: black;
+    display: block;
+}
+div#article1{
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    color: white;
+    font-style: bold;
+    display: block;
+    
+}
+table{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+table,tr,td,th{
+    border-collapse: collapse;
+    border: 5px ridge rgba(0, 355, 180, 0.9);
+    
+    
+
+}
+thead{
+    color: white;
+    background-color:mediumaquamarine;
+}
+th{
+    font-size: 20px;
+}
+td{
+    
+    font-size: 20px;
+    backdrop-filter: blur(4px);
+}
+
+
+img{
+     width: auto;
+     
+}
+button{
+    color: wheat;
+    text-decoration: none;
+    background-color:rgba(0, 355, 180, 0.9) ;
+    
+}
+/*body style*/
+body{
+    height: auto;
+    background-image:url("japan.png") ;
+    background-size: cover;    
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+/*Longterm*/
